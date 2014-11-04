@@ -1,0 +1,15 @@
+
+# ==============================================
+# Persistence object mapping configuration
+# ==============================================
+config.tx_extbase.persistence.classes {
+	Visol\Irreforeignselectordemo\Domain\Model\CityRelation {
+		mapping {
+			tableName = tx_irreforeignselectordemo_address_city_mm
+			columns {
+				uid_address.mapOnProperty = address
+				uid_city.mapOnProperty = city
+			}
+		}
+	}
+}

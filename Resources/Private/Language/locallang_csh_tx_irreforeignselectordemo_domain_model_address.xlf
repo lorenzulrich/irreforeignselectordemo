@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="messages" date="2014-11-04T23:31:30Z" product-name="irreforeignselectordemo">
+		<header/>
+		<body>
+			<trans-unit id="name.description">
+				<source>Name</source>
+			</trans-unit>
+			<trans-unit id="city.description">
+				<source>City</source>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

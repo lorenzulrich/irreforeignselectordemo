@@ -1,0 +1,29 @@
+
+<f:layout name="Default" />
+
+<f:section name="main">
+<h1>Listing for Address</h1>
+
+<f:flashMessages renderMode="div" />
+
+<table  class="tx_irreforeignselectordemo" >
+	<tr>
+		<th><f:translate key="tx_irreforeignselectordemo_domain_model_address.name" /></th>
+		<th>Cities</th>
+	</tr>
+
+	<f:for each="{addresses}" as="address">
+		<tr>
+			<td>{address.name}</td>
+			<td>
+				<ul>
+					<f:for each="{address.cities}" as="cityRelation">
+						<li>{cityRelation.city.name}</li>
+					</f:for>
+				</ul>
+			</td>
+		</tr>
+	</f:for>
+</table>
+
+</f:section>

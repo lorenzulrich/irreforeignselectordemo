@@ -1,0 +1,49 @@
+
+plugin.tx_irreforeignselectordemo {
+	view {
+		templateRootPath = {$plugin.tx_irreforeignselectordemo.view.templateRootPath}
+		partialRootPath = {$plugin.tx_irreforeignselectordemo.view.partialRootPath}
+		layoutRootPath = {$plugin.tx_irreforeignselectordemo.view.layoutRootPath}
+	}
+	persistence {
+		storagePid = {$plugin.tx_irreforeignselectordemo.persistence.storagePid}
+	}
+	features {
+		# uncomment the following line to enable the new Property Mapper.
+		# rewrittenPropertyMapper = 1
+	}
+}
+
+plugin.tx_irreforeignselectordemo._CSS_DEFAULT_STYLE (
+	textarea.f3-form-error {
+		background-color:#FF9F9F;
+		border: 1px #FF0000 solid;
+	}
+
+	input.f3-form-error {
+		background-color:#FF9F9F;
+		border: 1px #FF0000 solid;
+	}
+
+	.tx-irreforeignselectordemo table {
+		border-collapse:separate;
+		border-spacing:10px;
+	}
+
+	.tx-irreforeignselectordemo table th {
+		font-weight:bold;
+	}
+
+	.tx-irreforeignselectordemo table td {
+		vertical-align:top;
+	}
+
+	.typo3-messages .message-error {
+		color:red;
+	}
+
+	.typo3-messages .message-ok {
+		color:green;
+	}
+
+)
