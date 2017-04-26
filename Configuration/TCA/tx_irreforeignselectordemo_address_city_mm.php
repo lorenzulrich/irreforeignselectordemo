@@ -6,6 +6,7 @@ if (!defined('TYPO3_MODE')) {
 return array(
 	'ctrl'      => array(
 		'title'     => 'Relation table',
+		'label' => 'uid_address',
 		'hideTable' => TRUE,
 		'sortby'    => 'sorting',
 	),
